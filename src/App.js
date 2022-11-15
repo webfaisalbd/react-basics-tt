@@ -1,28 +1,22 @@
-// import React from 'react'
+// import React from "react"
 
-// function App(){
-//   return <> Hello </>
+// function App() {
+//   return (
+//     <>
+//       <h3>Hello React World 2</h3>
+//     </>
+//   )
 // }
 
-// const App = () => {
-//   return React.createElement("h1",{}, "Hello World");
-// };
+// export default App;
 
+
+import React from 'react'
 
 const App = () => {
   return (
-    <>
-      <MyName />
-      <h1 className="h1">Hello World</h1>
-      <p>Awesome {1+1}</p>
-      <MyName />
-  </>
-  );
+    <div>App</div>
+  )
 }
-
-const MyName = () => {
-  return <h3>Faisal Ahmed</h3>;
-}
-
 
 export default App
